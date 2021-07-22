@@ -155,29 +155,99 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 
 ### Bloco 20 - Introdução à SQL
 
+- [ ] Dia 01: Introdução - Back-end
+- [ ] Dia 01: Introdução - Bancos de dados relacionais
+- [ ] Dia 01: Banco de dados SQL
+- [ ] Dia 02: Enconttrando dados em um banco de dados
+- [ ] Dia 03: Filtrando dados de forma específica
+- [ ] Dia 04: Manipulando tabelas
+- [ ] Dia 05: Projeto - All For One 
+
 ### Bloco 21 - Funções SQL, Joins e Subqueries
+
+- [ ] Dia 01: Funções mais usadas no SQL
+- [ ] Dia 02: Descomplicando JOINs, UNIONs e Subqueries
+- [ ] Dia 03: Stored Routines & Stored Functions
+- [ ] Dia 04: Projeto - Vocabulary Booster
 
 ### Bloco 22 - Normalização e Modelagem de Banco de Dados
 
+- [ ] Dia 01: Transformando ideias em um modelo de banco de dados - Parte 1
+- [ ] Dia 02: Normalização, Formas Normais e Dumps
+- [ ] Dia 03: Transformando ideias em um modelo de banco de dados - Parte 2
+- [ ] Dia 04: Projeto - One For All
+
 ### Bloco 23 - Introdução ao MongoDB
+
+- [ ] Dia 01: Introdução - NoSQL
+- [ ] Dia 01: MongoDB - Introdução
+- [ ] Dia 02: Filter Operators
+- [ ] Dia 03: Projeto - Data Flights
 
 ### Bloco 24 - MongoDB: Updates Simples e Complexos
 
+- [ ] Dia 01: Updates Simples
+- [ ] Dia 02: Updates Complexos - Arrays - Parte 1
+- [ ] Dia 03: Updates Complexos - Arrays - Parte 2
+- [ ] Dia 04: Projeto - Commerce
+
 ### Bloco 25 - MongoDB: Aggregation Framework
+
+- [ ] Dia 01: Aggregation Framework - Parte 1
+- [ ] Dia 02: Aggregation Framework - Parte 2
+- [ ] Dia 03: Projeto - Aggregations
 
 ### Bloco 26 - Introdução ao Desenvolvimento Web com NodeJS
 
+- [ ] Dia 01: Intro - NodeJS
+- [ ] Dia 01: NodeJS - Introdução
+- [ ] Dia 02: NodeJS - Fluxo Assíncrono
+- [ ] Dia 03: Testes com NodeJS
+- [ ] Dia 04: Express: HTTP com NodeJS
+- [ ] Dia 05: Praticando Express
+- [ ] Dia 06: Projeto - Talker Manager
+
 ### Bloco 27 - NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+
+- [ ] Dia 01: Introdução - Arquitetura de Software
+- [ ] Dia 01: Arquitetura de Software - Camada de Model
+- [ ] Dia 02: Arquitetura de Software - Camada de Controller e Service
+- [ ] Dia 03: Arquitetura Web - Rest e Restful
+- [ ] Dia 04: Arquitetura de Software - Testando as Camadas
+- [ ] Dia 05: Projeto - Store Manager
 
 ### Bloco 28 - Autenticação e Upload de Arquivos
 
+- [ ] Dia 01: NodeJS - JWT - (JSOM Web Token)
+- [ ] Dia 02: NodeJS - Upload de arquivos com 'multer'
+- [ ] Dia 03: NodeJS - Testando APIs com Testes de Integração
+- [ ] Dia 04: Projeto - Cookmaster
+
 ### Bloco 29 - Deployment
+
+- [ ] Dia 01: Introdução - Deploy
+- [ ] Dia 01: Infraestutura - Deploy com Heroku
+- [ ] Dia 02: Deploy - Gerenciados de Processos
+- [ ] Dia 03: Projeto - Stranger Things
 
 ### Bloco 30 - Arquitetura: SOLID e ORM
 
+- [ ] Dia 01: Arquitetura - Princípios SOLID
+- [ ] Dia 02: ORM - Interface da aplicação com o banco de dados
+- [ ] Dia 03: ORM - Associations
+- [ ] Dia 04: Projeto - API de Blogs
+
 ### Bloco 31 - Sockets
 
+- [ ] Dia 01: Arquitetura de Software - Camada de View
+- [ ] Dia 02: Sockets - TCP/UDP & NET
+- [ ] Dia 03: Sockets - Socket.io
+- [ ] Dia 04: SOckets- Praticando Socket.io
+- [ ] Dia 05: Projeto - Webchat
+
 ### Bloco 32 - Projeto Trybeer
+
+- [ ] Dia 01: Projeto - Trybeer
 
 ## Módulo 04 - Ciência da Computação
 
