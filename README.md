@@ -218,7 +218,7 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 
 ### Bloco 28 - Autenticação e Upload de Arquivos
 
-- [ ] Dia 01: NodeJS - JWT - (JSOM Web Token)
+- [ ] Dia 01: NodeJS - JWT - (JSON Web Token)
 - [ ] Dia 02: NodeJS - Upload de arquivos com 'multer'
 - [ ] Dia 03: NodeJS - Testando APIs com Testes de Integração
 - [ ] Dia 04: Projeto - Cookmaster
@@ -253,12 +253,45 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 
 ### Bloco 33 - Arquitetura de Computadores e Redes
 
+- [ ] Dia 01: Introdução - Ciência da Computação 
+- [ ] Dia 01: Arquitetura de Computadores
+- [ ] Dia 02: Arquitetura de redes
+- [ ] Dia 03: Redes de computadores, ferramentas e segurança
+- [ ] Dia 04: Projeto - Explorando os protocolos
+
 ### Bloco 34 - Introdução à Python e Raspagem de Dados da Web
+
+- [ ] Dia 01: Aprendendo Python
+- [ ] Dia 02: Entrada e Saída de Dados
+- [ ] Dia 03: Raspagem de Dados
+- [ ] Dia 04: Testes
+- [ ] Dia 05: Projeto - Tech news
 
 ### Bloco 35 - Programação Orientada a Objetos e Padrões de Projeto
 
+- [ ] Dia 01: Introdução à programação orientada a objetos
+- [ ] Dia 02: Herança, Composição e Interfaces
+- [ ] Dia 03: Padrões de projeto
+- [ ] Dia 04: Projeto - Relatórios de Estoque
+
 ### Bloco 36 - Algoritmos e Estrutura de Dados
 
-### Bloco 37 - Hash e Set
+- [ ] Dia 01: Complexidade de Algoritmos
+- [ ] Dia 02: Recursividade e Estratégias para solução de problemas
+- [ ] Dia 03: Algoritmos de ordenação e busca 
+- [ ] Dia 04: Projeto - ALgoritmos
 
-### Bloco 38 - Pilhas, Filas e Listas
+### Bloco 37 - Estrutura de Dados: Hash e Set
+
+- [ ] Dia 01: Arrays
+- [ ] Dia 02: Hashmap e Dict
+- [ ] Dia 03: Set
+- [ ] Dia 03: Projeto - Restaurant Orders
+
+### Bloco 38 - Estrutura de Dados: Pilhas, Filas e Listas
+
+- [ ] Dia 01: Nó e Listas Encadeadas
+- [ ] Dia 02: Deque
+- [ ] Dia 03: Pilhas
+- [ ] Dia 04: Projeto - TING - Trybe Is Not Google
+
