@@ -82,27 +82,74 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 
 ### Bloco 09 - JavaScript Assíncrono e Promises
 
+- [ ] Dia 01: JavaScript Assíncrono e Callbacks
+- [ ] Dia 02: JavaScript Promises
+- [ ] Dia 03: Projeto - Carrinho de Compras
+
 ### Bloco 10 - Testes Automatizados com Jest
+
+- [ ] Dia 01: Primeiros passos no Jest
+- [ ] Dia 02: Jest - Testes Assíncronos
+- [ ] Dia 03: Jest - Simulando comportamentos
+- [ ] Dia 04: Projeto - Jest Assíncrono e Mocking
 
 ## Módulo 02 - Desenvolvimento Front-end
 
 ### Bloco 11 - Introdução à React
 
+- [ ] Dia 01: Introdução - Front-end
+- [ ] Dia 01: Introdução - React
+- [ ] Dia 01: 'Hello, world!' no React!
+- [ ] Dia 02: Componentes React
+- [ ] Dia 03: Projeto - Movie Cards Library
+
 ### Bloco 12 - Componentes com Estado, Eventos e Formulários com React
+
+- [ ] Dia 01: Componentes com estado e eventos
+- [ ] Dia 02: Formulários no React
+- [ ] Dia 03: Projeto - Movie Cards Library Stateful
 
 ### Bloco 13 - Ciclo de Vida de Componentes e React Router
 
+- [ ] Dia 01: Ciclo de vida de componentes
+- [ ] Dia 02: React Router
+- [ ] Dia 03: Projeto - Movie Cards Library CRUD
+
 ### Bloco 14 - Metodologias Ágeis
+
+- [ ] Dia 01: Metodologias Ágeis
+- [ ] Dia 02: Projeto - Frontend Online Store
 
 ### Bloco 15 - Testes automatizados com React Testing Library
 
+- [ ] Dia 01: RTL - Primeiros passos
+- [ ] Dia 02: RTL - Mocks e Inputs
+- [ ] Dia 03: RTL - Testando React Router
+- [ ] Dia 04: Projeto - Testes em React
+
 ### Bloco 16 - Gerenciamento de estado com Redux
+
+- [ ] Dia 01: Introdução ao Redux - O estado global da aplicação
+- [ ] Dia 02: Usando o Redux no React
+- [ ] Dia 03: Usando o Redux no React - Prática
+- [ ] Dia 04: Usando o Redux no React - Actions Assíncronas
+- [ ] Dia 05: Testes em React-Redux
+- [ ] Dia 06: Projeto - Trybe Wallet
 
 ### Bloco 17 - Projeto Jogo de Trivia
 
+- [ ] Dia 01: Projeto - Jogo de Trivia
+
 ### Bloco 18 - Context API e React Hooks
 
+- [ ] Dia 01: Context API do React
+- [ ] Dia 02: React Hooks - useState e useContext
+- [ ] Dia 03: React Hooks - useEffect e Hooks customizados
+- [ ] Dia 04: Projeto - StarWars Datatable com Context API e Hooks
+
 ### Bloco 19 - Projeto App de Receitas
+
+- [ ] Dia 01: Projeto - App de Receitas
 
 ## Módulo 03 - Desenvolvimento Back-end
 
