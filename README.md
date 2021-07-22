@@ -43,11 +43,42 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 
 ### Bloco 05 - JavaScript: DOM, Eventos e Web Storage
 
+- [ ] Dia 01: JavaScript - DOM e Seletores
+- [ ] Dia 02: JavaScript - Trabalhando com elementos
+- [ ] Dia 03: JavaScript - Eventos
+- [ ] Dia 04: JavaScript - Web Storage
+- [ ] Dia 05: Fundamento - javaScript - Projetos
+- [ ] Dia 05: Projeto - Arte com Pixels
+- [ ] Dia 06: Projeto - Lista de tarefas
+- [ ] Dia 07: (Bônus) Projeto - Meme Generator
+- [ ] Dia 07: (Bônus) Projeto - Adivinhe a Cor
+- [ ] Dia 07: (Bônus) Projeto - Carta Misteriosa
+
 ### Bloco 06 - HTML e CSS: Forms, Flexbox e Responsivo
+
+- [ ] Dia 01: HTML & CSS - Forms
+- [ ] Dia 02: Bibliotecas JacaScript e Frameworks CSS
+- [ ] Dia 03: Introdução - CSS Flexbox
+- [ ] Dia 03: CSS Flexbox - Parte 1
+- [ ] Dia 04: CSS Flexbox - Parte 2
+- [ ] Dia 05: CSS Responsivo - Mobile First
+- [ ] Dia 06: Projeto - Trybewarts
 
 ### Bloco 07 - Introdução à JavaScript ES6 e Testes Unitários
 
+- [ ] Dia 01: JavaScript ES6 - let, const, arrow functions e template literals
+- [ ] Dia 02: JavaScript ES6 - Objects
+- [ ] Dia 03: Teste unitários em JavaScript
+- [ ] Dia 04: Projeto - JavaScript Testes Unitários
+
 ### Bloco 08 - Higher Order Functions do JavaScript ES6 
+
+- [ ] Dia 01: JavaScript ES6 - Introdução a Higher Order Functions
+- [ ] Dia 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [ ] Dia 03: JavaScript ES6 - Higher Order Functions - map e filter
+- [ ] Dia 04: JavaScript ES6 - Higher Order Functions - reduce 
+- [ ] Dia 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [ ] Dia 06: Projeto - Zoo functions
 
 ### Bloco 09 - JavaScript Assíncrono e Promises
 
