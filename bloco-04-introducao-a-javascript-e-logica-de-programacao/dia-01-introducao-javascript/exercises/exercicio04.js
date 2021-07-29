@@ -1,4 +1,4 @@
-let valor = "-5";
+let valor = '-5';
 
 if (valor > 0) {
     console.log('positive');
