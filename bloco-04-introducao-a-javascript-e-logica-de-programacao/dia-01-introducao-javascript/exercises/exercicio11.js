@@ -1,4 +1,4 @@
-let salario = 5300.00;
+let salario = 2300.00;
 
 if (salario <= 1556.94) {
     salario = salario * 0.92;

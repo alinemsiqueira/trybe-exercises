@@ -1,3 +1,77 @@
+# Vamos praticar o que aprendemos no vídeo? 💪
+
+Abra o seu VS Code e faça os exercícios a seguir.
+
+__Dica:__ Com o plugin code runner que vimos no vídeo você pode executar o seu código no VS Code com o atalho ```ctrl + alt + n```. Confira mais dicas sobre o VS Code no conteúdo!
+
+1. Crie uma constante chamada ```myName``` e atribua a ela o seu nome (Exemplo: Carolina);
+
+2. Crie uma constante chamada ```birthCity``` e atribua a ela a sua cidade natal;
+
+3. Crie uma variável chamada ```birthYear``` e atribua a ela o ano em que você nasceu;
+
+4. Utilize o ```console.log()``` para imprimir as constantes e variáveis que você criou;
+
+5. Altere o valor atribuído à variável ```birthYear``` para 2030. Faça um ```console.log(birthYear)``` novamente para ver o que acontece!
+
+6. Altere o valor atribuído à constante ```birthCity``` . Faça um ```console.log(birthCity)``` novamente! Você saberia explicar por que recebemos uma mensagem de erro? 🤔
+
+# Tipos Primitivos, Tipagem Dinâmica e Operações Aritméticas
+
+Agora é a hora da mão ~~na massa~~ no código!
+
+No exemplo abaixo, temos as informações de um paciente. Utilize o operador ```typeof``` para imprimir qual o tipo das variáveis ```patientId``` , ```isEnrolled``` , ```patientInfo``` e ```patientEmail``` . Esse operador retorna qual o tipo de uma variável, objeto, função ou expressão. Exemplo: ```console.log(typeof patientId)``` retornará ```number``` .
+
+```
+let patientId = 50;
+let isEnrolled = true;
+const patientInfo = {
+  firstName: 'Ana',
+  lastName: 'Santos',
+};
+const patientEmail = 'ana@email.com';
+```
+
+O que aconteceria se tentássemos checar qual o tipo da variável ```patientAge``` ? Experimente executar o comando ```console.log(typeof patientAge)``` e veja o que acontece! Ué...mas não declaramos essa variável, não é mesmo? É exatamente por esse motivo que o seu tipo é ```undefined``` , como você pôde observar no retorno do ```console.log(typeof patientAge)``` . Experimente também trocar o valor de ```patientId = 50``` para ```patientId = '50'``` . Execute novamente um ```console.log()``` para imprimir o tipo dessa variável após a modificação. Você verá que o retorno agora é uma ```string``` pois colocamos o número 50 dentro das aspas. O JavaScript interpreta como string tudo o que estiver entre aspas.
+
+Agora que você já conhece os operadores aritméticos básicos do JavaScript, vamos praticá-los? Você pode consultar a lista de operadores na tabela JavaScript Arithmetic Operators disponível [nesse link](https://www.w3schools.com/js/js_operators.asp) se tiver dúvidas. Vamos fazer algumas operações simples para encontrarmos a área e o perímetro de um retângulo de base 5 e altura 8.
+
+1. Crie uma variável chamada ```base``` e uma variável chamada altura e atribua os seus respectivos valores: 5 e 8;
+
+2. Crie uma variável chamada ```area``` e atribua a ela o resultado da multiplicação da base pela altura. Dica: lembre-se de usar sempre o ```console.log()``` para imprimir as variáveis e checar os resultados das operações!
+
+3. Crie uma variável chamada ```perimetro``` e atribua a ela a soma de todos os lados do retângulo;
+
+# Condições If e Else
+
+Criar estruturas condicionais com operadores if/else e operadores lógicos será algo muito comum na sua carreira de pessoa desenvolvedora. Então vamos praticar o que aprendemos no vídeo?
+
+1. Crie uma variável que receba a nota de uma pessoa candidata em um desafio técnico, e atribua a ela um valor entre 1 e 100;
+
+2. Implemente uma lógica que verifique se a pessoa candidata foi aprovada, reprovada ou se ela está na lista de espera. Para isso, considere as seguintes informações:
+
+    * Se a nota for maior ou igual a 80, imprima "Parabéns, você foi aprovada(o)!"
+
+    * Se a nota for menor que 80 e maior ou igual a 60, imprima "Você está na nossa lista de espera"
+
+    * Se a nota for menor que 60, imprima "Você foi reprovada(o)"
+
+3. Crie uma estrutura condicional utilizando o ```if``` , ```else if``` e ```else``` para criar o seu algoritmo, e os operadores lógicos que se aplicam a cada situação.
+
+4. Altere o valor da nota para verificar se as condições que você implementou funcionam;
+
+# Switch e Case
+
+Você com certeza está super feliz com seus novos conhecimentos sobre JS, não é?! 🎉 Então vamos praticar mais um pouco antes de chegar na sessão de exercícios. 
+__Vamos!!!__
+
+1. Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: ```'aprovada'``` , ```'lista'``` ou ```'reprovada'``` ;
+
+2. Crie uma estrutura condicional com o switch/case que irá imprimir as mensagens do exercício anterior se o estado da pessoa candidata for ```'aprovada'``` , ```'lista'``` ou ```'reprovada'``` . 
+Como ```default``` , imprima a mensagem de ```'não se aplica'``` .
+
+A estrutura ```switch/case``` é utilizada quando queremos executar diferentes ações. A expressão que passamos para o ```switch``` é avaliada apenas uma vez, e o seu valor é comparado em cada caso. Se essa comparação for verdadeira, o código do caso avaliado é executado. Se nenhum valor satisfizer os casos listados, é executado o código em ```default``` .
+
 # Exercícios
 
 Agora a prática

@@ -1,3 +1,5 @@
+# Switch e Case
+
 Você com certeza está super feliz com seus novos conhecimentos sobre JS, não é?! 🎉 Então vamos praticar mais um pouco antes de chegar na sessão de exercícios. 
 __Vamos!!!__
 

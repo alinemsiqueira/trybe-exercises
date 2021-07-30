@@ -1,4 +1,3 @@
-
 # Vamos praticar o que aprendemos no vídeo? 💪
 
 Abra o seu VS Code e faça os exercícios a seguir.
