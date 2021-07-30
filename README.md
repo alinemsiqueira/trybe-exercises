@@ -59,7 +59,7 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 ### Bloco 06 - HTML e CSS: Forms, Flexbox e Responsivo
 
 - [ ] Dia 01: HTML & CSS - Forms
-- [ ] Dia 02: Bibliotecas JacaScript e Frameworks CSS
+- [ ] Dia 02: Bibliotecas JavaScript e Frameworks CSS
 - [ ] Dia 03: Introdução - CSS Flexbox
 - [ ] Dia 03: CSS Flexbox - Parte 1
 - [ ] Dia 04: CSS Flexbox - Parte 2
