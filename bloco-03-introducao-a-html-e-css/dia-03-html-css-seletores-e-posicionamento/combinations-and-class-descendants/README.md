@@ -1,10 +1,6 @@
 # Combinações e Classes Descendentes
 
-Neste ponto, você já aprendeu sobre o modelo de caixas, sobre como posicionar elementos na sua página e como o agrupamento de seletores e as pseudoclasses funcionam. Agora, você dará um passo mais a fundo na dinâmica do ```CSS``` , aprendendo sobre combinações de classes em elementos HTML e também a como utilizar a descendência para aplicar estilizações à elementos específicos.
-
-Ufa, parece bastante coisa, certo? Mas calma! Assista ao vídeo __maaaravilhoso__ a seguir e veja como sua aplicação é simples, porém poderosa!
-
-# Para fixar
+## Para fixar
 E aí? Viu o quão incrível o CSS pode ser?! Agora, para fixar ainda mais o conteúdo, vamos exercitar.
 ```index.html```
 ```

@@ -53,7 +53,7 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 
 6. Busque novamente por ```brazil``` , mas agora utilizando o _lower case_ .
 
-__Para os próximos exercícios, crie um novo arquivo chamado ```phrases.txt``` e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.__
+__Crie um novo arquivo chamado ```phrases.txt``` e adicione algumas frases.__
 
 7. Busque pelas frases que não contenham a palavra ```fox``` .
 

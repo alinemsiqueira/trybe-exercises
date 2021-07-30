@@ -1,6 +1,8 @@
 # Switch e Case
 
-Você com certeza está super feliz com seus novos conhecimentos sobre JS, não é?! 🎉 Então vamos praticar mais um pouco antes de chegar na sessão de exercícios. 
+## Para fixar
+
+Então vamos praticar mais um pouco antes de chegar na sessão de exercícios. 
 __Vamos!!!__
 
 1. Crie uma variável para armazenar o estado da pessoa candidata no processo seletivo, que pode ser: ```'aprovada'``` , ```'lista'``` ou ```'reprovada'``` ;

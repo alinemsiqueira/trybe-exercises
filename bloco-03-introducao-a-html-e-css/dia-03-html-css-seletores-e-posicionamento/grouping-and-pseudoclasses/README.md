@@ -1,6 +1,4 @@
-Viu como podemos economizar linhas de código simplesmente agrupando estilos? Ao fazer isso, podemos corrigir rapidamente erros de estilo pela página. Imagine: você precisa criar a versão dark-theme do seu site, fazendo todos os backgrounds ficarem escuros, textos ficarem claros e estilizar os títulos. Para isso, você precisaria editar cada elemento, mas agora, basta agrupar os seletores que sofrerão as mesmas mudanças e Voilà! Tudo resolvido!
-E quanto às pseudoclasses? Desde um simples ```:hover``` , para o elemento mudar quando o cursor do mouse passa por cima, até um ```:focus``` em um input de formulário, para quando o elemento estiver selecionado e puder ter um valor inserido, as pseudoclasses ajudam a estilizar melhor os elementos, dando um retorno visual ao usuário e agregando mais estilo ao seu site.
-DICA: Experimente colocar a propriedade ```transition``` nos seus estilos que possuem pseudoclasses. 😉
+# Agrupamento e Pseudoclasses
 
 # Para fixar I
 
