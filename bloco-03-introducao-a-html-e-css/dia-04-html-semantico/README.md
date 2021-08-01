@@ -15,6 +15,7 @@ Antes de fazer os exercícios, crie um arquivo HTML na pasta ```exercises/introd
   </body>
 </html>
 ```
+
 O objetivo desses exercícios é colocar em prática o que você acabou de aprender sobre __HTML semântico__ .
 
 Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o [Stomatopoda](https://www.nationalgeographic.com/science/article/natures-most-amazing-eyes-just-got-a-bit-weirder). A estilização da página fica a seu critério. 😉
@@ -54,3 +55,17 @@ Para uma melhor organização, faça commits a cada tarefa concluída. Vamos aos
 ```
 
 Obs: para esse exercício, é obrigatório fazer uso de, __no mínimo__ , 6 elementos com as seguintes tags: ```header``` , ```nav``` , ```article``` , ```section``` , ```h1``` , ```h2``` , ```h3```, ```aside``` , ```footer``` , ```table``` e ```img``` .
+
+# Validando com CodeSniffer
+
+Agora que você criou a página mostrando fatos interessantes a respeito do ```Stomatopoda``` , suponha que uma pessoa com deficiência visual acesse sua página. Será que sua página estará __acessível__ para essa pessoa? 🤔
+
+Vamos averiguar!
+
+Entre [neste site](https://squizlabs.github.io/HTML_CodeSniffer/) , que valida se sua página é acessível ou não. Para isso, você deverá copiar o código HTML e colar na caixa em baixo de "Run your code through the Sniffer".
+
+Ao submeter o código, você vai se deparar com erros de validação presentes em sua página, dando início a seu segundo exercício: __consertar todos os erros apontados__ .
+
+Para cada erro de validação mostrado, você tem à disposição um link para a página com sua descrição. __Antes__ de voltar para o código e já ir consertando, leia a descrição de cada erro para __entendê-lo__ e poder consertá-lo.
+
+No fim do exercício, além de ter uma página acessível, você vai reforçar a prática de __consertar erros__ , seja de validação (para este exercício), seja de lógica, com que você vai se deparar ao longo de sua carreira de desenvolvedor.
