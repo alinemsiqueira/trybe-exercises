@@ -1,5 +1,4 @@
-// if - se
-// else - senão
+// Exercício 01
 
 let trybe = 14;
 
@@ -14,4 +13,18 @@ else if (trybe >= 19.40 && trybe < 20) {
 }
 else {
     console.log("Fora dos momentos síncronos")
+}
+
+// Exercício 02
+
+let nota = 98;
+
+if (nota >= 80) {
+    console.log("Parabéns, você foi aprovada(o)!");
+}
+else if (nota < 80 && nota > 60) {
+    console.log("Você está na nossa lista de espera");
+}
+else {
+    console.log("Você foi reprovada(o)");
 }
