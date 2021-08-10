@@ -6,7 +6,7 @@ for (let index = 1; index <= n; index += 1) {
     result += ' ';
   }
   for(let star = 1; star <= index; star += 1) {
-    result += "* ";
+    result += '* ';
   }
   console.log(result);
 }
