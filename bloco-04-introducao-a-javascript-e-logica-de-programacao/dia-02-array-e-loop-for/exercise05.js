@@ -1,5 +1,9 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-for (let number of numbers) {
-    console.log()
+let biggestNumber = numbers[0];
+for (let count = 1; count < numbers.length; count += 1) {
+  if (numbers[count] > biggestNumber) {
+    biggestNumber = numbers[count];
+  }
 }
+console.log(biggestNumber);
