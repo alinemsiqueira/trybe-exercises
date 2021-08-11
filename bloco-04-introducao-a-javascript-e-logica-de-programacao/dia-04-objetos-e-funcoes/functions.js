@@ -63,3 +63,14 @@ function biggestOfThree(a, b, c) {
   }
 }
 console.log(biggestOfThree(a, b, c));
+
+// Exercício 4
+function positivity (a) {
+  if (a > 0) {
+    return 'positive';
+  } else {
+    return 'negative';
+  }
+}
+console.log(positivity(a));
+
