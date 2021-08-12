@@ -83,3 +83,24 @@ function triangleCheck (a, b, c) {
   }
 }
 console.log(triangleCheck(a, b, c));
+
+// Exercício 6
+function pecaDeXadrez (a) {
+  if (a.toLowerCase() === 'pawn') {
+    return 'forward';
+  } else if (a.toLowerCase() === 'knight') {
+    return 'l-shape';
+  } else if (a.toLowerCase() === 'bishop') {
+    return 'diagonal';
+  } else if (a.toLowerCase() === 'rooks') {
+    return 'horizontal or vertical';
+  } else if (a.toLowerCase() === 'queen') {
+    return 'any direction';
+  } else if (a.toLowerCase() === 'king') {
+    return 'one square in any direction';
+  } else {
+    return 'error! invalid chess piece!';
+  }
+}
+console.log(pecaDeXadrez('bishop'));
+
