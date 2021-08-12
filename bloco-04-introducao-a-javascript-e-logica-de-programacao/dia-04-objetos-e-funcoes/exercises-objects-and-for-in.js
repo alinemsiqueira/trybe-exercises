@@ -9,6 +9,9 @@ console.log('Bem-vinda, ' + info.personagem);
 
 // Exercício 02
 info['recorrente'] = 'Sim';
+
+// Exercício 03
 for (let key in info) {
   console.log(key);
 }
+
