@@ -8,3 +8,7 @@ let info = {
 console.log('Bem-vinda, ' + info.personagem);
 
 // Exercício 02
+info['recorrente'] = 'Sim';
+for (let key in info) {
+  console.log(key);
+}
