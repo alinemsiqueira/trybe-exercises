@@ -60,7 +60,7 @@ function highestNumberCount(numbers) {
   let howMany = 0;
   let result = 0;
 
-  for(let count=0; count < numbers.length; count += 1){
+  for(let count=0; count < numbers.length; count += 1) {
     if (numbers[count] === numbers[count + 1]) {
       howMany += 1;
     } else {
@@ -73,4 +73,14 @@ function highestNumberCount(numbers) {
   }
   return result;
 }
-console.log(highestNumberCount([2, 3, 2, 5, 8, 2, 3]))
+console.log(highestNumberCount([2, 3, 2, 5, 8, 2, 3]));
+
+// Exercício 06
+function somaDeGauss(number) {
+  let result = 0;
+  for (let count = 0; count <= number; count += 1) {
+    result += count;
+  }
+  return result;
+}
+console.log(somaDeGauss(5));
