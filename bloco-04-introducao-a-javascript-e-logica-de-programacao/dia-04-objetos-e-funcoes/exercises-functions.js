@@ -37,3 +37,18 @@ function indexOfSmallerValue(a) {
   return indexOfSmallerValue;
 }
 console.log(indexOfSmallerValue([2, 4, 6, 7, 10, 0, -3]));
+
+// Exercício 04
+function biggerNames(a) {
+  let biggerName;
+  let size = 0; 
+
+  for (let count = 0; count < a.length; count += 1) {
+    if (a[count].length > size) {
+      size = a[count].length;
+      biggerName = a[count];
+    }
+  }
+  return biggerName;
+}
+console.log(biggerNames(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
