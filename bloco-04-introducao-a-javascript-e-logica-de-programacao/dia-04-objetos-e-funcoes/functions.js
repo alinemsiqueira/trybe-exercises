@@ -140,3 +140,17 @@ function ifNotEven (a, b, c) {
     return false;
   }
 }
+
+// Exercício 10
+function valorLucro (valorCusto, valorVenda) {
+  let valorCustoTotal = valorCusto + valorCusto * 0.2;
+  if (valorCustoTotal < valorVenda && valorCustoTotal > 0 && valorVenda > 0) {
+    return (valorVenda - valorCustoTotal) * 1000;
+  } else if (valorCustoTotal > valorVenda && valorCustoTotal > 0 && valorVenda > 0) {
+    return 'O valor de venda é abaixo do valor de custo!';
+  } else {
+    return 'Erro! Os valores não podem ser zero!';
+  }
+}
+console.log(valorLucro(100, 150));
+
