@@ -104,3 +104,20 @@ function pecaDeXadrez (a) {
 }
 console.log(pecaDeXadrez('bishop'));
 
+// Exercício 7
+function notaFinal (nota) {
+  if (nota >= 90) {
+    return 'Nota A';
+  } else if (nota >= 80) {
+    return 'Nota B';
+  } else if (nota >= 70) {
+    return 'Nota C';
+  } else if (nota >= 60) {
+    return 'Nota D';
+  } else if (nota >= 50) {
+    return 'Nota E';
+  } else {
+    return 'Nota F';
+  }
+}
+console.log(notaFinal(92));
