@@ -84,3 +84,15 @@ function somaDeGauss(number) {
   return result;
 }
 console.log(somaDeGauss(5));
+
+// Exercício 07
+function verificaFimPalavra (word, ending) {
+  let a = word.slice(-2);
+  if (ending === a) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(verificaFimPalavra('trybe', 'be'));
+console.log(verificaFimPalavra('joaofernando', 'fernan'));
