@@ -74,3 +74,12 @@ function positivity (a) {
 }
 console.log(positivity(a));
 
+// Exercício 5
+function triangleCheck (a, b, c) {
+  if (a + b + c === 180) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(triangleCheck(a, b, c));
