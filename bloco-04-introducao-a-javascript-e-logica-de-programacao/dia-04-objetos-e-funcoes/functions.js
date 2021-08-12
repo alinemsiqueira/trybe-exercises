@@ -132,3 +132,11 @@ function ifEven (a, b, c) {
 }
 console.log(ifEven(a, b, c));
 
+// Exercício 9
+function ifNotEven (a, b, c) {
+  if ( a % 2 === 1 || b % 2 === 1 || c % 2 === 1 ){
+    return true;
+  } else {
+    return false;
+  }
+}
