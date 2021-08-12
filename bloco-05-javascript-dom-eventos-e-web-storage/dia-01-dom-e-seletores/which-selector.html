@@ -1,21 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <header>
-      <h2 id="page-title">Título</h2>
-      <p id="paragraph" class="paragraphs">Dê uma cor para este parágrafo!</p>
-      <h4 id="subtitle">Subtítulo</h4>
-      <p id="second-paragraph" class="paragraphs">Segundo parágrafo!</p>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./which-selector.css">
+    <title>Administrador do Tempo</title>
+  </head>
+  <body id="container">
+    <header id="header-container">
+      <h1>Administrador do Tempo da Trybe</h1>
     </header>
-    <script>
-      const paragraph = document.getElementById("paragraph");
-      paragraph.style.color = "red";
-      document.querySelector('#page-title').innerText = 'Howl\'s Moving Castle';
-      document.querySelector('#second-paragraph').innerText = 'Young Sophie Hatter is cursed by the Witch of the Waste, and turns into an old hag. Ashamed of how she looks, she flees into the hills where a moving castle roams the hills. It is said to belong to the young and handsome wizard Howl, who has a bad reputation. Within the castle, Sophie befriends the fire demon Calcifer, who promises to help her become young again. One catch: she must help Calcifer to be free of Howl, and Calcifer cannot tell her how. However, Sophie agrees to stay and try to find out about the contract through other ways. Still, Howl can see that Sophie is under a spell like Calcifer can, and he falls in love with her for who she is and not for what she looks like. Sophie manages to bring life to the moving castle, and she helps Howl to face his former tutor, Madame Suliman.';
-      document.querySelector('#subtitle').innerText = 'When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.';
-      document.querySelector('.paragraphs').innerText;
-      document.querySelector('#paragraph').style.color = "blue";
-      document.querySelector('h4').style.color = "darkblue"
-    </script>
+
+    <section class="emergency-tasks">
+      <div>
+        <h3>Urgente e Importante</h3>
+      </div>
+      <div>
+        <h3>Urgente e Não-Importante</h3>
+      </div>
+    </section>
+
+    <section class="no-emergency-tasks">
+      <div>
+        <h3>Não-Urgente e Importante</h3>
+      </div>
+      <div>
+        <h3>Não-Urgente e Não-Importante</h3>
+      </div>
+    </section>
+
+    <footer id="footer-container">
+      <div>&copy; Trybe</div>
+    </footer>
+    <script src="./which-selector.js"></script>
   </body>
 </html>
