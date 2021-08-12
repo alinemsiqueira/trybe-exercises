@@ -39,7 +39,7 @@ function indexOfSmallerValue(a) {
 console.log(indexOfSmallerValue([2, 4, 6, 7, 10, 0, -3]));
 
 // Exercício 04
-function biggerNames(a) {
+function biggestName(a) {
   let biggerName;
   let size = 0; 
 
@@ -51,4 +51,26 @@ function biggerNames(a) {
   }
   return biggerName;
 }
-console.log(biggerNames(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+console.log(biggestName(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+
+// Exercício 05
+function highestNumberCount(numbers) {
+  numbers.sort();
+  let biggestCount = 0;
+  let howMany = 0;
+  let result = 0;
+
+  for(let count=0; count < numbers.length; count += 1){
+    if (numbers[count] === numbers[count + 1]) {
+      howMany += 1;
+    } else {
+      howMany = 0;
+    }
+    if(howMany > biggestCount) {
+      result = numbers[count];
+      biggestCount = howMany;
+    }
+  }
+  return result;
+}
+console.log(highestNumberCount([2, 3, 2, 5, 8, 2, 3]))
