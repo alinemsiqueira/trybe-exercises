@@ -17,6 +17,13 @@ firstLi.parentElement.addEventListener( 'click', techClass );
 
 //  2. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+function techText () {
+  let li = document.querySelector('.tech');
+  let value = input.value;
+  li.innerText = value;
+}
+input.addEventListener('keyup', techText);
+
 // 3. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // * Que tal redirecionar para seu portifólio?
