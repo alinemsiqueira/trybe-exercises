@@ -66,9 +66,12 @@
       createMain.className = 'main-content';
       document.querySelector('body').appendChild(createMain);
       // Exercício 03
-      let createSection = document.createElement('section');
-      createSection.className = 'center-content';
-      document.querySelector('main').appendChild(createSection);
+      let centerContent = document.createElement('section');
+      centerContent.className = 'center-content';
+      document.querySelector('main').appendChild(centerContent);
+      // Exercício 04
+      let createP = document.createElement('p');
+      document.querySelector('.center-content').appendChild(createP);
     </script>
   </body>
 </html>
