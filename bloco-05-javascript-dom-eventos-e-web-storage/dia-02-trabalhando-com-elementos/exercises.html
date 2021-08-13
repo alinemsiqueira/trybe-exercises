@@ -57,25 +57,30 @@
   </head>
   <body>
     <script>
+      let body = document.querySelector('body');
       // Exercício 01
       let createH1 = document.createElement('h1');
       createH1.innerText = 'Exercício 5.2 - JavaScript DOM';
-      document.querySelector('body').appendChild(createH1);
+      body.appendChild(createH1);
       // Exercício 02
-      let createMain = document.createElement('main');
-      createMain.className = 'main-content';
-      document.querySelector('body').appendChild(createMain);
+      let createMainContent = document.createElement('main');
+      createMainContent.className = 'main-content';
+      body.appendChild(createMainContent);
       // Exercício 03
-      let centerContent = document.createElement('section');
-      centerContent.className = 'center-content';
-      document.querySelector('main').appendChild(centerContent);
+      let createCenterContent = document.createElement('section');
+      createCenterContent.className = 'center-content';
+      document.querySelector('main').appendChild(createCenterContent);
       // Exercício 04
       let createP = document.createElement('p');
       document.querySelector('.center-content').appendChild(createP);
       // Exercício 05
-      let leftContent = document.createElement('section');
-      leftContent.className = 'left-content';
-      document.querySelector('main').appendChild(leftContent);
+      let createLeftContent = document.createElement('section');
+      createLeftContent.className = 'left-content';
+      document.querySelector('main').appendChild(createLeftContent);
+      // Exercício 06
+      let createRightContent = document.createElement('section');
+      createRightContent.className = 'right-content';
+      body.appendChild(createRightContent);
     </script>
   </body>
 </html>
