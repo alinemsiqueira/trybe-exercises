@@ -17,6 +17,9 @@
         createSection.id = 'irmaoDoElementoProcurado';
         document.querySelector('#elementoOndeVoceEsta').parentElement.appendChild(createSection);
         // 2. Crie um filho para elementoOndeVoceEsta .
+        let createSection2 = createSection;
+        createSection2.id = 'filhoDoElementoProcurado';
+        document.querySelector('#elementoOndeVoceEsta').appendChild(createSection2);
         // 3. Crie um filho para primeiroFilhoDoFilho .
         // 4. A partir desse filho criado, acesse terceiroFilho .
       </script>
