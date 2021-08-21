@@ -73,3 +73,14 @@ function clickHolidayButton() {
   }
 }
 
+// Exercício 04
+function createFridayButton() {
+  const createFridayButton = document.createElement('button');
+  createFridayButton.innerText = 'Sexta-feira';
+  createFridayButton.id = 'btn-friday';
+  document.querySelector('.buttons-container').appendChild(createFridayButton);
+}
+
+const fridayButton = document.querySelector('#btn-friday');
+fridayButton.addEventListener('click', clickFridayButton);
+
