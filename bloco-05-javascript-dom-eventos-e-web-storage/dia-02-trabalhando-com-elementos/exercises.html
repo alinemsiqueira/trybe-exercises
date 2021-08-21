@@ -58,33 +58,66 @@
   <body>
     <script>
       let body = document.querySelector('body');
-      // Exercício 01
+      // Exercício 1.1
       let createH1 = document.createElement('h1');
       createH1.innerText = 'Exercício 5.2 - JavaScript DOM';
+      // Exercício 2.1
+      createH1.className = 'title';
       body.appendChild(createH1);
-      // Exercício 02
+      // Exercício 1.2
       let createMainContent = document.createElement('main');
       createMainContent.className = 'main-content';
       body.appendChild(createMainContent);
-      // Exercício 03
+      // Exercício 1.3
       let createCenterContent = document.createElement('section');
       createCenterContent.className = 'center-content';
       document.querySelector('main').appendChild(createCenterContent);
-      // Exercício 04
+      // Exercício 1.4
       let createP = document.createElement('p');
       document.querySelector('.center-content').appendChild(createP);
-      // Exercício 05
+      // Exercício 1.5
       let createLeftContent = document.createElement('section');
       createLeftContent.className = 'left-content';
       document.querySelector('main').appendChild(createLeftContent);
-      // Exercício 06
+      // Exercício 1.6
       let createRightContent = document.createElement('section');
       createRightContent.className = 'right-content';
-      body.appendChild(createRightContent);
-      // Exercício 07
+      document.querySelector('main').appendChild(createRightContent);
+      // Exercício 1.7
       let addImage = document.createElement('img');
-      addImage.src = 'https://picsum.photos/200' 
+      addImage.src = 'https://picsum.photos/200';
+      addImage.className = 'small-image';
       document.querySelector('.left-content').appendChild(addImage);
+      // Exercício 1.8
+      let list = document.createElement('ul');
+      let numbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      document.querySelector('.right-content').appendChild(list);
+      for (let index = 0; index < numbers.length; index += 1) {
+        let listItems = document.createElement('li');
+        listItems.innerText = numbers[index];
+        document.querySelector('ul').append(listItems);
+      }
+      // Exercício 1.9
+      let createH3 = document.createElement('h3');
+      for (let index = 0; index < 3; index += 1) {
+        // Exercício 2.2
+        createH3.className = 'description';
+        document.querySelector('main').appendChild(createH3);
+      }
+      // Exercício 2.3
+      let leftContent = document.querySelector('.left-content');
+      document.querySelector('.left-content').parentNode.removeChild(leftContent);
+      // Exercício 2.4
+      let rightContent = document.querySelector('.right-content');
+      rightContent.style.marginRight = 'auto';
+      // Exercicio 2.5
+      let centerContent = document.querySelector('.center-content');
+      centerContent.parentNode.style.backgroundColor = 'green';
+      // Exercício 2.6
+      for (let index = 0; index < 2; index += 1) {
+        let listItem = document.querySelector('ul');
+        listItem.lastChild.remove();
+      }
     </script>
   </body>
 </html>
