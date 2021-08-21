@@ -58,3 +58,18 @@ function createHolidayButton() {
   document.querySelector('.buttons-container').appendChild(createHolidayButton);
 }
 
+// Exercício 03
+const holidayButton = document.querySelector('#btn-holiday');
+holidayButton.addEventListener('click', clickHolidayButton);
+
+const holiday = document.querySelectorAll('.holiday')
+function clickHolidayButton() {
+  for (let day = 0; day < holiday.length; day += 1) {
+    if (holiday[day].classList.contains('selected-holiday')) {
+      holiday[day].classList.remove('selected-holiday');
+    } else {
+      holiday[day].classList.add('selected-holiday');
+    }
+  }
+}
+
