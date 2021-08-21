@@ -131,3 +131,45 @@ addTasks('Aula', 'lightpink');
 addTasks('Exercícios', 'lightgreen')
 addTasks('Reunião', 'lightblue');
 
+// Exercício 09
+// Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected , ou seja, quando sua tarefa possuir a classe task selected , ela estará selecionada.
+// Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.
+
+// const tasks = document.getElementsByClassName('.task');
+// tasks.addEventListener('click', selectedTask);
+
+// function selectedTask(event) {
+//   if (tasks.classList.contains('selected')) {
+//     tasks.classList.remove('selected');
+//     } else {
+//     event.target.classList.add('selected');
+//     }
+// }
+
+// Exercício 10
+// Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
+// Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) .
+
+// Exercício Bônus
+const input = document.querySelector('input');
+const addButton = document.querySelector('#btn-add');
+input.addEventListener('keypress', checkEnterPressed);
+addButton.addEventListener('click', addCommitment);
+
+function checkEnterPressed(event) {
+  if (event.key === 'Enter') {
+    addCommitment();
+  }
+}
+
+function addCommitment() {
+  if (input.value === '') {
+    return alert('Por favor insira o nome do compromisso!');
+  }
+  const createDiv = document.createElement('li');
+  const commitmentList = document.querySelector('.input-container');
+  createDiv.className = 'task';
+  createDiv.innerText = input.value;
+  commitmentList.appendChild(createDiv);
+  input.value = '';
+}
