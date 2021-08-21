@@ -48,3 +48,13 @@ function addHolidays() {
   }
 }
 addHolidays();
+
+// Exercício 02
+
+function createHolidayButton() {
+  const createHolidayButton = document.createElement('button');
+  createHolidayButton.innerText = 'Feriados';
+  createHolidayButton.id = 'btn-holiday';
+  document.querySelector('.buttons-container').appendChild(createHolidayButton);
+}
+
