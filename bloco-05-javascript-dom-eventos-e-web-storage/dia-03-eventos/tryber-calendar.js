@@ -84,3 +84,17 @@ function createFridayButton() {
 const fridayButton = document.querySelector('#btn-friday');
 fridayButton.addEventListener('click', clickFridayButton);
 
+// Exercício 05
+function clickFridayButton() {
+  const friday = document.querySelectorAll('.friday');
+  for (let day = 0; day < friday.length; day += 1) {
+    if (friday[day].classList.contains('sextou')) {
+      friday[day].classList.remove('sextou');
+      friday[day].innerText = dezDaysList[(day + 1) * 7 - 2];
+    } else {
+      friday[day].classList.add('sextou');
+      friday[day].innerText = 'SEXTOU!';
+    }
+  }
+}
+
