@@ -111,3 +111,23 @@ function zoomOutDays(event) {
   event.target.style.fontSize = '';
 }
 
+// Exercício 07 e 08
+const myTasks = document.querySelector('.my-tasks');
+function addTasks(taskName, color) {
+  const createSpan = document.createElement('span');
+  createSpan.className = 'task-name';
+  createSpan.innerText = taskName;
+  createSpan.color = color;
+
+  const createDiv = document.createElement('div');
+  createDiv.className = 'task';
+  createDiv.style.backgroundColor = color;
+
+  myTasks.appendChild(createDiv);
+  myTasks.appendChild(createSpan);
+}
+
+addTasks('Aula', 'lightpink');
+addTasks('Exercícios', 'lightgreen')
+addTasks('Reunião', 'lightblue');
+
