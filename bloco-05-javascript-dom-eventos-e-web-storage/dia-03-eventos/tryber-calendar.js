@@ -98,3 +98,16 @@ function clickFridayButton() {
   }
 }
 
+// Exercício 06
+const daysContainer = document.querySelector('.days-container');
+days.addEventListener('mouseover', zoomInDays);
+days.addEventListener('mouseout', zoomOutDays);
+
+function zoomInDays(event) {
+  event.target.style.fontSize = '30px';
+}
+
+function zoomOutDays(event) {
+  event.target.style.fontSize = '';
+}
+
