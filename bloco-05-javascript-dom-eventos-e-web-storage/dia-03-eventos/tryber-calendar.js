@@ -100,8 +100,8 @@ function clickFridayButton() {
 
 // Exercício 06
 const daysContainer = document.querySelector('.days-container');
-days.addEventListener('mouseover', zoomInDays);
-days.addEventListener('mouseout', zoomOutDays);
+daysContainer.addEventListener('mouseover', zoomInDays);
+daysContainer.addEventListener('mouseout', zoomOutDays);
 
 function zoomInDays(event) {
   event.target.style.fontSize = '30px';
@@ -132,21 +132,36 @@ addTasks('Exercícios', 'lightgreen')
 addTasks('Reunião', 'lightblue');
 
 // Exercício 09
-const tasks = document.getElementsByClassName('.task');
-function selectedTask() {
-  tasks.addEventListener('click', function(event) {
-    let selectedTask = document.querySelector('.selected');
-    if (selectedTask === null) {
-      event.target.classList.add('selected');
-    } else {
-      event.target.classList.remove('selected');
-    }
-  });
+const tasksToSelect = document.getElementsByClassName('.task');
+tasksToSelect.addEventListener('click', selectedTask);
+
+function selectedTask(event) {
+  let selectedTask = document.querySelector('.selected');
+  if (selectedTask === null) {
+    event.target.classList.add('selected');
+  } else {
+    event.target.classList.remove('selected');
+  }
 }
 selectedTask();
 
 // Exercício 10
+daysContainer.addEventListener('click', addSelectedColor);
 
+function addSelectedColor(event) {
+  let selectedTask = document.querySelector('.selected');
+  const originalColor = 'rgb(119, 119, 119)';
+  let newColor;
+  if (selectedTask !== null) {
+    newColor = selectedTask.style.backgroundColor;
+    if (event.target.style.color === newColor) {
+      event.target.style.color = originalColor
+    } else {
+      event.target.style.color = newColor;
+    }
+  }
+}
+addSelectedColor();
 
 // Exercício Bônus
 const input = document.querySelector('input');
