@@ -155,7 +155,7 @@ function addSelectedColor(event) {
   if (selectedTask !== null) {
     newColor = selectedTask.style.backgroundColor;
     if (event.target.style.color === newColor) {
-      event.target.style.color = originalColor
+      event.target.style.color = originalColor;
     } else {
       event.target.style.color = newColor;
     }
