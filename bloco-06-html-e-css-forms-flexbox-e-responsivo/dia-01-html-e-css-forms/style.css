@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 10px;
+}
+
+body form {
+  background-color: lightcyan;
+  border: 3px dotted #525252;
+  border-radius: 20px;
+}
+
+body form fieldset {
+  border: none;
+}
+
+body form label, body form input {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 2;
+}
+
+body form label {
+  font-size: 25px;
+}
+
+#casa-radio, #apt-radio {
+  flex-direction: row;
+}

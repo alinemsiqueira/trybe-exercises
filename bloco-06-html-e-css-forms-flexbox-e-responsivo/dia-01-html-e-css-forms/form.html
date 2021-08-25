@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Form</title>
+</head>
+<body>
+  <form action="" method="get">
+    <fieldset>
+      <label for="name-text">Nome
+        <input type="text" name="name" id="name-text" placeholder="Nome completo" maxlength="40" required>
+      </label>
+      <label for="email-text">E-mail
+        <input type="email" name="email" id="email-text" placeholder="E-mail" maxlength="50" required>
+      </label>
+      <label for="cpf-numbers">CPF
+        <input type="number" name="cpf" id="cpf-numbers" placeholder="000.000.000-00" maxlength="11" required>
+      </label>
+      <label for="rua-texto">Endereço
+        <input type="text" name="rua" id="rua-texto" placeholder="Rua, nº 123" maxlength="200" required>
+      </label>
+      <label for="cidade-texto">Cidade
+        <input type="text" name="cidade" id="cidade-texto" placeholder="Cidade" maxlength="28" required>
+      </label>
+      <label for="estado-select">Estado
+        <select name="estado" id="estado-select" required>
+          <option value="" selected disabled hidden>UF</option>
+        </select>
+      </label>
+      <label for="casa-radio">Casa
+        <input type="radio" name="casa-apt" id="casa-radio" required checked>
+      </label>
+      <label for="apt-radio">Apartamento
+        <input type="radio" name="casa-apt" id="apt-radio" required>
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="resumo-curriculo">Resumo do Currículo
+        <textarea name="resumo-curr" id="resumo-curriculo" cols="30" rows="10" placeholder="Insira seu texto aqui" maxlength="1000" required></textarea>
+      </label>
+      <label for="cargo-text">Cargo
+        <input type="text" name="cargo" id="cargo-text" placeholder="Cargo" maxlength="40" required>
+      </label>
+      <label for="cargo-description">Descrição do cargo
+        <input type="text" name="cargo-desc" id="cargo-description" placeholder="Descrição das atividades do cargo" maxlength="500" required>
+      </label>
+      <label for="data-inicio-text">
+        <input type="text" name="data-inicio" id="data-inicio-text">
+      </label>
+      <button type="submit">Enviar</button>
+    </fieldset>
+  </form>
+  <script src="./script.js"></script>
+</body>
+</html>
