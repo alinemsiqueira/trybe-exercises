@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Align Content</title>
+    <style>
+      .box {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 30%;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+        /* ADICIONE AQUI SEUS TESTES */
+        /* Centraliza os itens e ajusta conforme o tamanho do conteúdo */
+        /* align-content: center; */
+        /* Ajusta os itens conforme conteúdo e alinha no começo (superior da página) */
+        /* align-content: flex-start; */
+        /* Ajusta os itens conforme conteúdo e alinha no final (inferior da página) */
+        /* align-content: flex-end; */
+        align-content: stretch;
+        /* Ajusta espaçado dividindo entre o espaço livre da página, porém com o bloco de tamanho ajustado ao conteúdo COM MARGEM */
+        /* align-content: space-around; */
+        /* Ajusta espaçado dividindo entre o espaço livre da página, porém com o bloco de tamanho ajustado ao conteúdo SEM MARGEM */
+        /* align-content: space-between; */
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+      <div class="box">4</div>
+      <div class="box">5</div>
+      <div class="box">6</div>
+      <div class="box">7</div>
+      <div class="box">8</div>
+      <div class="box">9</div>
+    </div>
+  </body>
+</html>
