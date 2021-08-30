@@ -35,3 +35,4 @@ for ( let count = 0; count < quantosEstados; count += 1) {
   createOption.innerText = Object.keys(todosOsEstados)[count];
   estado.appendChild(createOption);
 }
+
