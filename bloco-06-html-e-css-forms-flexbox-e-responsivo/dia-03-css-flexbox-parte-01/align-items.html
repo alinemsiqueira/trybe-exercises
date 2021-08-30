@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Align Items</title>
+    <style>
+      .box-one {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 70px;
+        min-height: 80px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 50px;
+      }
+
+      .box-two {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        min-height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 50px;
+      }
+
+      .box-three {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 30px;
+        margin: 10px 5px;
+        min-height: 50px;
+        text-align: center;
+        width: 50px;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        /* Centraliza os itens verticalmente, ajustando o tamanho para o que contém dentro */
+        /* align-items: center; */
+        /* Ajusta verticalmente os itens e os deixa na parte superior do bloco, ajustando o tamanho */
+        /* align-items: flex-start; */
+        /* Ajusta verticalmente os itens e os deixa na parte inferior do bloco, ajustando o tamanho */
+        /* align-items: flex-end; */
+        /* Ajusta verticalmente deixando todos os blocos com o mesmo tamanho, independente do conteúdo dentro ser menor */
+        align-items: stretch;
+        /* Alinha o conteúdo verticalmente, independendo da posição do bloco, caso o bloco seja maior, vai expandir para baixo ou para cima */
+        /* align-items: baseline; */
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box-one">1</div>
+      <div class="box-two">2</div>
+      <div class="box-three">3</div>
+    </div>
+  </body>
+</html>
