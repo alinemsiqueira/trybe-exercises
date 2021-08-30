@@ -13,7 +13,11 @@ body {
   padding: 10px;
 }
 
-body form label, body form button {
+body form label {
   color: #525252;
+  padding: 10px 0;
 }
 
+label {
+  display: flex;
+}
