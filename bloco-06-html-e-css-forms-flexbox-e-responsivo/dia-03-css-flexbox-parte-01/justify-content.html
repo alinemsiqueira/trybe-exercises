@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox - Justify Content</title>
+    <style>
+      .box {
+        color: #9069EF;
+        background-color: rgb(243, 243, 243);
+        border: 2px solid #232525;
+        font-size: 50px;
+        height: 60px;
+        margin: 10px 5px;
+        text-align: center;
+        width: 20%;
+      }
+
+      .box-container {
+        background-color: #0fa36b;
+        display: flex;
+        /* ADICIONE AQUI SEUS TESTES */
+        /* Flex start alinha os elementos no começo (superior esquerdo) */
+        /* justify-content: flex-start; */
+        /* Center centraliza os itens na página */
+        /* justify-content: center; */
+        /* Space around utiliza o espaço restante da linha dividido entre os elementos COM MARGEM */
+        /* justify-content: space-around; */
+        /* Space between utiliza o espaço restante da linha dividido entre os elementos COM MARGEM */
+        justify-content: space-between;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="box-container">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </body>
+</html>
