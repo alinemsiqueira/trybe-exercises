@@ -30,63 +30,63 @@ Aqui está reunido todas as atividades desenvolvidas ao longo da trajetória na 
 - [x] Dia 01: Introdução - HTML & CSS
 - [x] Dia 01: HTML & CSS - Estruturas de página
 - [x] Dia 02: HTML & CSS - Primeiros passos em CSS
-- [ ] Dia 03: HTML & CSS - Seletores e posicionamento
-- [ ] Dia 04: HTML Semântico
-- [ ] Dia 05: Projeto - Lessons Learned
+- [x] Dia 03: HTML & CSS - Seletores e posicionamento
+- [x] Dia 04: HTML Semântico
+- [x] Dia 05: Projeto - Lessons Learned
 
 ### Bloco 04 - Introdução à JavaScript e Lógica de Programação
 
-- [ ] Dia 01: Introdução - JavaScript
-- [ ] Dia 01: JavaScript - Primeiros Passos
-- [ ] Dia 02: JavaScript - Array e loop For
-- [ ] Dia 03: JavaScript - Lógica de Programação e Algoritmos
-- [ ] Dia 04: Objetos e funções
-- [ ] Dia 05: Projeto - Playground Functions
+- [x] Dia 01: Introdução - JavaScript
+- [x] Dia 01: JavaScript - Primeiros Passos
+- [x] Dia 02: JavaScript - Array e loop For
+- [x] Dia 03: JavaScript - Lógica de Programação e Algoritmos
+- [x] Dia 04: Objetos e funções
+- [x] Dia 05: Projeto - Playground Functions
 
 ### Bloco 05 - JavaScript: DOM, Eventos e Web Storage
 
-- [ ] Dia 01: JavaScript - DOM e Seletores
-- [ ] Dia 02: JavaScript - Trabalhando com elementos
-- [ ] Dia 03: JavaScript - Eventos
-- [ ] Dia 04: JavaScript - Web Storage
-- [ ] Dia 05: Fundamento - javaScript - Projetos
-- [ ] Dia 05: Projeto - Arte com Pixels
-- [ ] Dia 06: Projeto - Lista de tarefas
-- [ ] Dia 07: (Bônus) Projeto - Meme Generator
-- [ ] Dia 07: (Bônus) Projeto - Adivinhe a Cor
-- [ ] Dia 07: (Bônus) Projeto - Carta Misteriosa
+- [x] Dia 01: JavaScript - DOM e Seletores
+- [x] Dia 02: JavaScript - Trabalhando com elementos
+- [x] Dia 03: JavaScript - Eventos
+- [x] Dia 04: JavaScript - Web Storage
+- [x] Dia 05: Fundamento - javaScript - Projetos
+- [x] Dia 05: Projeto - Arte com Pixels
+- [x] Dia 06: Projeto - Lista de tarefas
+- [x] Dia 07: (Bônus) Projeto - Meme Generator
+- [x] Dia 07: (Bônus) Projeto - Adivinhe a Cor
+- [x] Dia 07: (Bônus) Projeto - Carta Misteriosa
 
 ### Bloco 06 - HTML e CSS: Forms, Flexbox e Responsivo
 
-- [ ] Dia 01: HTML & CSS - Forms
-- [ ] Dia 02: Bibliotecas JavaScript e Frameworks CSS
-- [ ] Dia 03: Introdução - CSS Flexbox
-- [ ] Dia 03: CSS Flexbox - Parte 1
-- [ ] Dia 04: CSS Flexbox - Parte 2
-- [ ] Dia 05: CSS Responsivo - Mobile First
-- [ ] Dia 06: Projeto - Trybewarts
+- [x] Dia 01: HTML & CSS - Forms
+- [x] Dia 02: Bibliotecas JavaScript e Frameworks CSS
+- [x] Dia 03: Introdução - CSS Flexbox
+- [x] Dia 03: CSS Flexbox - Parte 1
+- [x] Dia 04: CSS Flexbox - Parte 2
+- [x] Dia 05: CSS Responsivo - Mobile First
+- [x] Dia 06: Projeto - Trybewarts
 
 ### Bloco 07 - Introdução à JavaScript ES6 e Testes Unitários
 
-- [ ] Dia 01: JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] Dia 02: JavaScript ES6 - Objects
-- [ ] Dia 03: Teste unitários em JavaScript
-- [ ] Dia 04: Projeto - JavaScript Testes Unitários
+- [x] Dia 01: JavaScript ES6 - let, const, arrow functions e template literals
+- [x] Dia 02: JavaScript ES6 - Objects
+- [x] Dia 03: Teste unitários em JavaScript
+- [x] Dia 04: Projeto - JavaScript Testes Unitários
 
 ### Bloco 08 - Higher Order Functions do JavaScript ES6 
 
-- [ ] Dia 01: JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] Dia 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
-- [ ] Dia 03: JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] Dia 04: JavaScript ES6 - Higher Order Functions - reduce 
-- [ ] Dia 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
-- [ ] Dia 06: Projeto - Zoo functions
+- [x] Dia 01: JavaScript ES6 - Introdução a Higher Order Functions
+- [x] Dia 02: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+- [x] Dia 03: JavaScript ES6 - Higher Order Functions - map e filter
+- [x] Dia 04: JavaScript ES6 - Higher Order Functions - reduce 
+- [x] Dia 05: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+- [x] Dia 06: Projeto - Zoo functions
 
 ### Bloco 09 - JavaScript Assíncrono e Promises
 
-- [ ] Dia 01: JavaScript Assíncrono e Callbacks
-- [ ] Dia 02: JavaScript Promises
-- [ ] Dia 03: Projeto - Carrinho de Compras
+- [x] Dia 01: JavaScript Assíncrono e Callbacks
+- [x] Dia 02: JavaScript Promises
+- [x] Dia 03: Projeto - Carrinho de Compras
 
 ### Bloco 10 - Testes Automatizados com Jest
 
